@@ -1,0 +1,71 @@
+
+.横並びA {
+	display: flex;
+	justify-content: space-between;
+	
+	& .列 {
+		background-color: orange;
+		width: 120px;
+	}
+}
+
+.横並びB {
+	display: flex;
+	justify-content: space-between;
+	
+	& .広い列 {
+		background-color: lightblue;
+		width: 240px;
+	}
+	
+	& .狭い列 {
+		background-color: lightgreen;
+		width: 120px;
+	}
+}
+
+.横並びC {
+	display: flex;
+	justify-content: space-between;
+	
+	& .列 {
+		background-color: pink;
+		width: 120px;
+	}
+}
+
+.横並びD {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	& .列 {
+		background-color: red;
+		width: 120px;
+	}
+}
+
+.動物横並び {
+	display: flex;
+	justify-content: space-between;
+	
+	& .動物 {
+		width: 100px;
+		border: 1px solid black;
+		padding: 10px 10px 10px 10px;
+		
+		& .動物画像 {
+			width: 100%;
+		}
+
+		& .動物名 {
+			font-size: 20px;
+			font-weight: bold;
+		}
+		
+		& .説明文 {
+			font-size: 12px;
+		}
+	}
+}
+
+
