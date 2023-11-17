@@ -1,4 +1,4 @@
-# nextD0A22018
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
